@@ -1,0 +1,27 @@
+{
+  "name": "server-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "crypto": "node ./helpers/crypto/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jcruherp",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "helpers": "github:jcruzherrera/helpers",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  }
+}
