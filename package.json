@@ -8,7 +8,7 @@
     "crypto": "node ./helpers/crypto/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jcruherp",
+  "author": "reivaj2dev",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
